@@ -1,3 +1,11 @@
 {
+  "openclerk": {
+    "db_password": "clerk"
+  },
+  "mysql": {
+    "server_root_password": "6NKzlKnJZSWQ0JDaiFyXA",
+    "server_debian_password": "Cy6KzHrd75rNQG1X9FCSKpFfaVN",
+    "server_repl_password": "kzUHVo2sSnA0rImlSSqYlIjWw"
+  },
   "run_list": [ "recipe[apt]", "recipe[openclerk]" ]
 }
