@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'https://supermarket.getchef.com/api/v1'
+
+# cookbook 'chef-client'
+
+cookbook 'apt'
+cookbook 'apache2', '>= 1.11.0'
+
+cookbook 'openclerk',
+  :git => 'https://github.com/soundasleep/openclerk-cookbook'
+
+# cookbook 'postgresql',
+#   :git => 'https://github.com/findsyou/cookbooks',
+#   :ref => 'postgresql-improvements'

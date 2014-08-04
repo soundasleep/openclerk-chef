@@ -1,0 +1,27 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    apache2 (1.11.0)
+      freebsd (>= 0.0.0)
+      iptables (>= 0.0.0)
+      logrotate (>= 0.0.0)
+      pacman (>= 0.0.0)
+    apt (2.4.0)
+    freebsd (0.1.9)
+    iptables (0.13.2)
+    logrotate (1.6.0)
+    pacman (1.1.1)
+
+GIT
+  remote: https://github.com/soundasleep/openclerk-cookbook
+  ref: master
+  sha: 1ba5d272874bbe2821d0a3c55ad38c76fcf83e8a
+  specs:
+    openclerk (0.1.0)
+      apache2 (>= 0.0.0)
+
+DEPENDENCIES
+  apache2 (>= 1.11.0)
+  apt (>= 0)
+  openclerk (>= 0)
+
