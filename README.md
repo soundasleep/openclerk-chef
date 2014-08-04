@@ -9,6 +9,7 @@ Follow the instructions from the excellent
 [Getting Started with Chef](http://gettingstartedwithchef.com/first-steps-with-chef.html) tutorial.
 
 1. Install prerequisites
+
 ```
 sudo apt-get install git ruby1.9.1 ruby1.9.1-dev make`
 ```
