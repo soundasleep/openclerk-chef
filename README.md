@@ -11,7 +11,7 @@ Follow the instructions from the excellent
 1. Install prerequisites
 
 ```
-sudo apt-get install git ruby1.9.1 ruby1.9.1-dev make`
+sudo apt-get install git ruby1.9.1 ruby1.9.1-dev make
 ```
 
 1. Install `chef-solo`
