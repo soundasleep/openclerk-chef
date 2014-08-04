@@ -46,6 +46,8 @@ librarian-chef install      # (or `librarian-chef update` to pick up updated coo
 chef-solo -c solo.rb -j web.json
 ```
 
+1. Visit http://localhost/ and everything should be running! If not, check `/var/log/apache2/error.log` for any errors.
+
 ## Uses `librarian-chef`
 
 After extracting lots of cookbooks manually with `knife`, I got fed up of typing the same commands over 
