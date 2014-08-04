@@ -11,6 +11,9 @@ cookbook 'apache2', '>= 1.11.0'
 cookbook 'openclerk',
   :git => 'https://github.com/soundasleep/openclerk-cookbook'
 
+cookbook 'composer',
+  :git => 'git://github.com/Morphodo/chef-composer.git'
+
 # cookbook 'postgresql',
 #   :git => 'https://github.com/findsyou/cookbooks',
 #   :ref => 'postgresql-improvements'
