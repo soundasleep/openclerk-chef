@@ -14,6 +14,9 @@ cookbook 'openclerk',
 cookbook 'composer',
   :git => 'git://github.com/Morphodo/chef-composer.git'
 
+cookbook 'grunt_cookbook',
+  :git => 'git://github.com/MattSurabian/grunt_cookbook.git'
+
 # cookbook 'postgresql',
 #   :git => 'https://github.com/findsyou/cookbooks',
 #   :ref => 'postgresql-improvements'
