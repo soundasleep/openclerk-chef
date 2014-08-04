@@ -64,7 +64,7 @@ SITE
 GIT
   remote: git://github.com/MattSurabian/grunt_cookbook.git
   ref: master
-  sha: a48428617244b8e6e5f3f032a1b0b26ec7150ea5
+  sha: b3f543346cfbb99d83baff6604dcef595254e777
   specs:
     grunt_cookbook (1.0.0)
       nodejs (>= 0.0.0)
@@ -77,12 +77,20 @@ GIT
     composer (0.2.1)
 
 GIT
+  remote: git://github.com/soundasleep/chef_bundler.git
+  ref: master
+  sha: 0547ef9d418f6b70e72aa7db7e8e0b08ac2cd5b9
+  specs:
+    chef_bundler (0.0.1)
+
+GIT
   remote: https://github.com/soundasleep/openclerk-cookbook
   ref: master
-  sha: 504b5249f627a3401e71eebeabeeb4ae4a4fa89b
+  sha: 24a8821cf98eb69e7ea4df939a041fc59a994d6f
   specs:
-    openclerk (0.1.9)
+    openclerk (0.1.10)
       apache2 (>= 0.0.0)
+      chef_bundler (>= 0.0.0)
       composer (>= 0.0.0)
       database (>= 0.0.0)
       grunt_cookbook (>= 0.0.0)
@@ -93,6 +101,7 @@ GIT
 DEPENDENCIES
   apache2 (>= 1.11.0)
   apt (>= 0)
+  chef_bundler (>= 0)
   composer (>= 0)
   grunt_cookbook (>= 0)
   openclerk (>= 0)

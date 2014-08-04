@@ -17,6 +17,9 @@ cookbook 'composer',
 cookbook 'grunt_cookbook',
   :git => 'git://github.com/MattSurabian/grunt_cookbook.git'
 
+cookbook 'chef_bundler',
+  :git => 'git://github.com/soundasleep/chef_bundler.git'
+
 # cookbook 'postgresql',
 #   :git => 'https://github.com/findsyou/cookbooks',
 #   :ref => 'postgresql-improvements'
