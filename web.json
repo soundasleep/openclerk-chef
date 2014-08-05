@@ -7,7 +7,8 @@
     "phpmailer_host": "mail.example.com",
     "phpmailer_username": "user",
     "phpmailer_password": "password",
-    "phpmailer_bcc": ""
+    "phpmailer_bcc": "",
+    "automated_key": "replace_me"
   },
   "mysql": {
     "server_root_password": "root",

@@ -86,9 +86,9 @@ GIT
 GIT
   remote: https://github.com/soundasleep/openclerk-cookbook
   ref: master
-  sha: be0015ca22b9d41a3bc804a5cc71e065f37c8495
+  sha: 6efd67562875f011f9edbd26951fdd486268a16b
   specs:
-    openclerk (0.1.15)
+    openclerk (0.1.16)
       apache2 (>= 0.0.0)
       chef_bundler (>= 0.0.0)
       composer (>= 0.0.0)
