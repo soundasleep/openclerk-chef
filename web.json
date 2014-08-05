@@ -1,11 +1,18 @@
 {
   "openclerk": {
-    "db_password": "clerk"
+    "db_password": "clerk",
+    "server_name": "localhost",
+    "server_remote_name": "localhost:80",
+    "site_email": "support@example.com",
+    "phpmailer_host": "mail.example.com",
+    "phpmailer_username": "user",
+    "phpmailer_password": "password",
+    "phpmailer_bcc": ""
   },
   "mysql": {
-    "server_root_password": "6NKzlKnJZSWQ0JDaiFyXA",
-    "server_debian_password": "Cy6KzHrd75rNQG1X9FCSKpFfaVN",
-    "server_repl_password": "kzUHVo2sSnA0rImlSSqYlIjWw"
+    "server_root_password": "root",
+    "server_debian_password": "debian",
+    "server_repl_password": "repl"
   },
   "run_list": [ "recipe[apt]", "recipe[openclerk]" ]
 }

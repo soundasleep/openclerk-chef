@@ -7,7 +7,7 @@ SITE
       iptables (>= 0.0.0)
       logrotate (>= 0.0.0)
       pacman (>= 0.0.0)
-    apt (2.4.0)
+    apt (2.5.2)
     ark (0.9.0)
       7-zip (>= 0.0.0)
       windows (>= 0.0.0)
@@ -15,7 +15,7 @@ SITE
     build-essential (2.0.6)
     chef-sugar (2.0.0)
     chef_handler (1.1.6)
-    database (2.2.0)
+    database (2.3.0)
       aws (>= 0.0.0)
       mysql (>= 5.0.0)
       mysql-chef_gem (>= 0.0.0)
@@ -49,7 +49,7 @@ SITE
       apt (>= 1.9.0)
       build-essential (>= 0.0.0)
       openssl (>= 0.0.0)
-    windows (1.34.0)
+    windows (1.34.2)
       chef_handler (>= 0.0.0)
     xfs (1.1.0)
     xml (1.2.6)
@@ -79,16 +79,16 @@ GIT
 GIT
   remote: git://github.com/soundasleep/chef_bundler.git
   ref: master
-  sha: 0547ef9d418f6b70e72aa7db7e8e0b08ac2cd5b9
+  sha: d56df8d183d850a5bc30f4b506d332af096da9ff
   specs:
     chef_bundler (0.0.1)
 
 GIT
   remote: https://github.com/soundasleep/openclerk-cookbook
   ref: master
-  sha: 24a8821cf98eb69e7ea4df939a041fc59a994d6f
+  sha: be0015ca22b9d41a3bc804a5cc71e065f37c8495
   specs:
-    openclerk (0.1.10)
+    openclerk (0.1.15)
       apache2 (>= 0.0.0)
       chef_bundler (>= 0.0.0)
       composer (>= 0.0.0)

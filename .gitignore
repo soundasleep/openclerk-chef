@@ -7,3 +7,6 @@
 .chef/encrypted_data_bag_secret
 /cookbooks
 /tmp
+
+# Private files for testing
+ubuntu.json
