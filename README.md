@@ -1,7 +1,7 @@
 openclerk-chef
 ==============
 
-Chef cookbooks and configuration for installing [Openclerk](http://openclerk.org).
+Chef cookbooks and configuration for installing [Openclerk](http://openclerk.org) with the [openclerk Chef cookbook](https://github.com/soundasleep/openclerk-cookbook).
 
 ## Getting started
 
