@@ -6,12 +6,12 @@ Chef cookbooks and configuration for installing [Openclerk](http://openclerk.org
 ## Getting started
 
 Follow the instructions from the excellent 
-[Getting Started with Chef](http://gettingstartedwithchef.com/first-steps-with-chef.html) tutorial.
+[Getting Started with Chef](http://gettingstartedwithchef.com/first-steps-with-chef.html) tutorial, on a brand new server as `root`:
 
-1. Install prerequisites
+1. Install system prerequisites:
 
 ```
-sudo apt-get install git ruby1.9.1 ruby1.9.1-dev make
+apt-get install git ruby1.9.1 ruby1.9.1-dev make
 ```
 
 1. Install `chef-solo`
