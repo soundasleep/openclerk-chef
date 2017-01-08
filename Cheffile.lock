@@ -91,9 +91,9 @@ GIT
 GIT
   remote: git://github.com/soundasleep/chef_bundler.git
   ref: master
-  sha: d56df8d183d850a5bc30f4b506d332af096da9ff
+  sha: 386acc63dd4df9ae58bf361fa8192d8c4f2b3974
   specs:
-    chef_bundler (0.0.1)
+    chef_bundler (0.0.2)
 
 GIT
   remote: https://github.com/soundasleep/openclerk-cookbook
