@@ -3,6 +3,8 @@ openclerk-chef
 
 Chef cookbooks and configuration for installing [Openclerk](http://openclerk.org) with the [openclerk Chef cookbook](https://github.com/soundasleep/openclerk-cookbook).
 
+Also check out [setting up Openclerk with Vagrant](https://github.com/soundasleep/openclerk-vagrant), which uses this setup.
+
 ## Getting started
 
 Follow the instructions from the excellent 
