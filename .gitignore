@@ -7,6 +7,8 @@
 .chef/encrypted_data_bag_secret
 /cookbooks
 /tmp
+/local-mode-cache
+/nodes
 
 # Private files for testing
 ubuntu.json
